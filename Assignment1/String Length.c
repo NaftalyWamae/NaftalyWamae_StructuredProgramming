@@ -9,7 +9,7 @@ int main()
 
     // Ask the user to enter a string
     printf("Enter a string: ");
-    scanf("%[^\n]s", str);
+    scanf("%[^\n]s", &str);
 
     // Calculate length using strlen()
     length = strlen(str);
@@ -20,3 +20,4 @@ int main()
 
     return 0;
 }
+
